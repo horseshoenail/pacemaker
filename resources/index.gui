@@ -1,0 +1,255 @@
+<svg>
+  
+  <svg id = "startScreen">
+    <use id="getGPS" href="#square-button" y="5" x="0" width="25%" fill="white"
+      font-family="System-Regular" font-size="40">
+      <set href="#text" attributeName="text-buffer" to="GPS" />
+      <set href="#text" attributeName="fill" to="white" />
+    </use>   
+    <use id="setDistance" href="#square-button" y="5" x="25%" width="75%" fill="white"
+      font-family="System-Regular" font-size="40">
+      <set href="#text" attributeName="text-buffer" to="Set distance" />
+      <set href="#text" attributeName="fill" to="white" />
+    </use>   
+    <use id="startButton" href="#square-button" y="75" height="95" fill="white"
+      font-family="System-Regular" font-size="40">
+      <set href="#text" attributeName="text-buffer" to="Start run!" />
+      <set href="#text" attributeName="fill" to="white" />
+    </use>
+    <use id="setTime" href="#square-button" y="170" fill="white"
+      font-family="System-Regular" font-size="40">
+      <set href="#text" attributeName="text-buffer" to="Set time" />
+      <set href="#text" attributeName="fill" to="white" />
+    </use>          
+  </svg>
+
+  <svg id = "GPSScreen">
+    <text id="GPSScreen_label"/>
+  </svg>
+
+  <svg id = "selectTimeScreen">
+      <use id="tumbler_hours_1" href="#tumblerview" x="20" y="0" width="100" height="250">
+       <use id="item0" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4tumbler">00</text>
+       </use>
+       <use id="item1" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4tumbler">01</text>
+       </use>
+       <use id="item2" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4tumbler">02</text>
+       </use>
+       <use id="item3" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4tumbler">03</text>
+       </use>
+       <use id="item4" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4tumbler">04</text>
+       </use>
+       <use id="item5" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4tumbler">05</text>
+       </use>
+       <use id="item6" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4tumbler">06</text>
+       </use>
+       <use id="item7" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4tumbler">07</text>
+       </use>
+       <use id="item8" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4tumbler">08</text>
+       </use>
+       <use id="item9" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4tumbler">09</text>
+       </use>       
+       <use id="item10" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4tumbler">10</text>
+       </use>
+     </use>
+    
+     <use id="tumbler_minutes_1" href="#tumblerview" x="150" y="0" width="50" height="250" >
+       <use id="item0" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4tumbler">0</text>
+       </use>
+       <use id="item1" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4tumbler">1</text>
+       </use>
+       <use id="item2" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4tumbler">2</text>
+       </use>
+       <use id="item3" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4tumbler">3</text>
+       </use>
+       <use id="item4" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4tumbler">4</text>
+       </use>
+       <use id="item5" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4tumbler">5</text>
+       </use>   
+     </use>
+
+     <use id="tumbler_minutes_2" href="#tumblerview" x="210" y="0" width="50" height="250">
+       <use id="item0" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4tumbler">0</text>
+       </use>
+       <use id="item1" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4tumbler">1</text>
+       </use>
+       <use id="item2" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4tumbler">2</text>
+       </use>
+       <use id="item3" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4tumbler">3</text>
+       </use>
+       <use id="item4" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4tumbler">4</text>
+       </use>
+       <use id="item5" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4tumbler">5</text>
+       </use>
+       <use id="item6" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4tumbler">6</text>
+       </use>
+       <use id="item7" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4tumbler">7</text>
+       </use>
+       <use id="item8" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4tumbler">8</text>
+       </use>
+       <use id="item9" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4tumbler">9</text>
+       </use>       
+     </use>
+     <text id="doubledot_label"/>
+     <text id="settime_label"/>
+  </svg>
+  
+  <svg id = "selectDistanceScreen">
+     <use id="tumbler_km_1" href="#tumblerview" x="10" y="0">
+       <use id="item0" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4distance">0</text>
+       </use>
+       <use id="item1" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4distance">1</text>
+       </use>
+       <use id="item2" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4distance">2</text>
+       </use>
+       <use id="item3" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4distance">3</text>
+       </use>
+       <use id="item4" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4distance">4</text>
+       </use>
+       <use id="item5" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4distance">5</text>
+       </use>
+       <use id="item6" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4distance">6</text>
+       </use>
+       <use id="item7" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4distance">7</text>
+       </use>
+       <use id="item8" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4distance">8</text>
+       </use>    
+       <use id="item9" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4distance">9</text>
+       </use>
+     </use>
+      
+     <use id="tumbler_km_2" href="#tumblerview" x="95" y="0">
+       <use id="item0" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4distance">0</text>
+       </use>
+       <use id="item1" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4distance">1</text>
+       </use>
+       <use id="item2" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4distance">2</text>
+       </use>
+       <use id="item3" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4distance">3</text>
+       </use>
+       <use id="item4" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4distance">4</text>
+       </use>
+       <use id="item5" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4distance">5</text>
+       </use>
+       <use id="item6" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4distance">6</text>
+       </use>
+       <use id="item7" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4distance">7</text>
+       </use>
+       <use id="item8" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4distance">8</text>
+       </use>
+       <use id="item9" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4distance">9</text>
+       </use>       
+     </use>
+    
+     <use id="tumbler_km_3" href="#tumblerview" x="190" y="0">
+       <use id="item0" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4distance">0</text>
+       </use>
+       <use id="item1" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4distance">1</text>
+       </use>
+       <use id="item2" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4distance">2</text>
+       </use>
+       <use id="item3" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4distance">3</text>
+       </use>
+       <use id="item4" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4distance">4</text>
+       </use>
+       <use id="item5" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4distance">5</text>
+       </use>
+       <use id="item6" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4distance">6</text>
+       </use>
+       <use id="item7" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4distance">7</text>
+       </use>
+       <use id="item8" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4distance">8</text>
+       </use>
+       <use id="item9" href="#tumbler-item">
+        <text id="tumbler_value" class="digit4distance">9</text>
+       </use>       
+     </use>
+
+     <text id="km_label"/>
+     <text id="dot_label"/>
+  </svg>
+   
+
+  <svg id = "mainScreen">
+    <text id="youdo_label" />
+    <text id="youshould_label" />
+    <text id="pace_ms_label" />
+    <text id="pace_needed_ms_label" />
+    <text id="predicted_time_label" />
+    <line id="my_line1" x1="0%" y1="0%" x2="0%" y2="0%" fill="black" stroke-width="2" />
+    <line id="my_line2" x1="0%" y1="0%" x2="0%" y2="0%" fill="black" stroke-width="2" />
+    <line id="my_line3" x1="0%" y1="0%" x2="0%" y2="0%" fill="black" stroke-width="2" />
+
+    <line id="done_line1" x1="0%" y1="0%" x2="0%" y2="0%" fill="black" stroke-width="2" />
+    <line id="done_line2" x1="0%" y1="0%" x2="0%" y2="0%" fill="black" stroke-width="2" />
+
+    <text id="eta_label" />
+
+    <text id="text_part1_label" />
+    <image id="speed_up_slow_down_image" href=""/>
+    <text id="text_part2_label" />
+
+    <text id="distance_label" />
+    <text id="hr_label" />
+    <text id="time_elapsed_label" />
+
+    <image id="play_pause_image" href=""/>
+
+  </svg>
+</svg>
